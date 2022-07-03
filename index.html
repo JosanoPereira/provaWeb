@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Prova Web</title>
+</head>
+<body>
+    <header>
+        <div class="cabeca">
+            <div class="menu">
+                <img src="Dados/menu-icon-2.png" alt="">
+                <span>MENU</span>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="divCab">
+            <div class="cabImg">
+                <img src="Dados/WhatsApp Image 2022-07-02 at 20.29.20.jpeg" alt="">
+            </div>
+            <div class="cabCont">
+                <div class="formulario">
+                    <form action="">
+                        <label for="">Enter your code:</label>
+                        <input type="text" name="enter" id="enter" placeholder="Enter...">
+                        <input type="button" id="enviar" value="Get Value">
+                    </form>
+                </div>
+                <div class="cabTexto">
+                    <h3>For faster Scanning - download our free app <a href="#">here</a>!</h3>
+                    <div class="app">
+                        <img src="Dados/WhatsApp Image 2022-07-02 at 20.29.21 (1).jpeg" alt="">
+                        <img src="Dados/WhatsApp Image 2022-07-02 at 20.29.21.jpeg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="conteudo">
+            <h1>Clutter-to-money in four easy steps</h1>
+            <div class="imagens">
+                <figure>
+                    <img src="Dados/WhatsApp Image 2022-07-02 at 20.29.22.jpeg">
+                    <figcaption>
+                        <p>Scan or enter your barcode and gets instat price</p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="Dados/WhatsApp Image 2022-07-02 at 20.29.18.jpeg">
+                    <figcaption>
+                        <p>Scan or enter your barcode and gets instat price</p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="Dados/WhatsApp Image 2022-07-02 at 20.29.19 (1).jpeg">
+                    <figcaption>
+                        <p>Scan or enter your barcode and gets instat price</p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="Dados/WhatsApp Image 2022-07-02 at 20.29.19.jpeg">
+                    <figcaption>
+                        <p>Scan or enter your barcode and gets instat price</p>
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+        <div id="pratica">
+            <input type="search" id="txt_procurar" placeholder="Search Trade">
+            <br>
+            <div id="centro">
+                <table id="tabela">
+                    <tbody>
+                        <tr>
+                          <td class="cab">ISBN do Livro</td>
+                          <td class="cab">Preco de Venda</td>
+                          <td class="cab">Estado</td>
+                        </tr>
+                    </tbody>
+                </table> 
+                <aside>
+                    <input type="text" id="txt_isbn" placeholder="ISBN" onfocus="  document.getElementById('txt_isbn').style.backgroundColor = 'white';"><br>
+                    <input type="text" id="txt_preco" placeholder="Preco" onfocus=" document.getElementById('txt_isbn').style.backgroundColor = 'white'"> <br>
+                    <button onclick="adicionar()">Registar</button>
+                </aside>
+            </div>
+       <button id="detalhes">Edit Detailes</button>
+   </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>

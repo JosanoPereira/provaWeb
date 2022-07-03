@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aqua;
+}
+header > .cabeca{
+    height: 80px;
+    padding: 5px;
+    background-color: #fff;
+}
+header > .cabeca img{
+    width: 50px;
+    display: block;
+}
+header > .cabeca .menu{
+    float: right;
+}
+.divCab{
+    display: block;
+}
+.divCab > .cabImg img{
+    width: 100%;
+}
+.divCab > .cabCont{
+    padding: 40px;
+    position: relative;
+    top: -4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ff9903;
+    width: 100%;
+    margin: 0;
+}
+.divCab > .cabCont .formulario form{
+    background-color: antiquewhite;
+    padding: 6px;
+}
+.divCab > .cabCont .cabTexto .app{
+    display: none;
+}
+section > .conteudo{
+    width: 100%;
+    color: #ff9903;
+    text-align: center;
+    position: relative;
+    font-weight: bold;
+    display: block;
+}
+section > .conteudo h1{
+    margin: 10px;
+}
+section > .conteudo .imagens{
+    background-color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: center;
+}
+@media (max-width: 767px) {
+    body{
+        background-color: bisque;
+    }
+    header > .cabeca{
+        height: 60px;
+        padding: 5px;
+        background-color: #fff;
+    }
+    header > .cabeca img{
+        width: 30px;
+        display: block;
+    }
+    .divCab > .cabImg img{
+        width: 100%;
+    }
+    .divCab > .cabImg span{
+        font-size: .5em;
+    }
+    .divCab > .cabCont{
+        padding: 10px;
+        position: relative;
+        top: -4px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        background-color: #ff9903;
+        width: 100%;
+        margin: 0;
+    }
+    .divCab > .cabCont .formulario form{
+        background-color: antiquewhite;
+        padding: 6px;
+        display: flex;
+        flex-direction: column;
+    }
+    .divCab > .cabCont .cabTexto .app{
+        display: inline-block;
+    }
+    section > .conteudo{
+        width: 100%;
+        color: #ff9903;
+        text-align: center;
+        position: relative;
+        font-weight: bold;
+    }
+    section > .conteudo .imagens{
+        background-color: #fff;
+        display: block;
+        padding: 10px;
+    }
+}
+@media (min-width: 767px) {
+    body{
+        background-color: blue;
+    }
+}
